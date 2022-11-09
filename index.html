@@ -8,25 +8,18 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="corpo">
     <div id="app">
         <header>
             <img src="./assets/header.svg" alt="">
         </header>
-        <main>
-            <div class="card">
-                <h2>24/11 <span>quinta</span></h2>
-                <ul>
-                    <li>
-                        <img src="./assets/logo-switzer.svg" alt="">
-                        <strong>7:00</strong>
-                        <img src="./assets/logo-cameron.svg" alt="">
-                    </li>
-             
-                </ul>
-            </div>
-        </main>
-    </div>
-   
+        <nav id="mudarCores">
+            <button id="btnCorAmarelo" class="btn" onclick="mudarAmarelo()" value="amarelo"></button>
+            <button id="btnCorVerde" class="btn" onclick="mudarVerde()" value="verde"></button>
+            <button id="btnCorAzul" class="btn" onclick="mudarAzul()" value="azul"></button>
+        </nav>
+        <main id="cards"></main>
+    </div>  
 </body>
+<script src="./scripts/index.js"></script>
 </html>

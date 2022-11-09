@@ -1,0 +1,12 @@
+{
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.bracketPairColorization.enabled": true,
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.enable": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 2,
+    "prettier.semi": false
+}
+                 
